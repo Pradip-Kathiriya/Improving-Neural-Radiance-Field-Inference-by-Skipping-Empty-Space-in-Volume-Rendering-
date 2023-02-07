@@ -1,5 +1,7 @@
 ## Project Description
 
+The goal of this project is to implement 'SparseLeap-an effective empty space skipping technique' during volume rendering phase of the NeRF(Neural Radiance Fields). 
+
 ## What is NeRF (Neural Radiance Fields)?
 
 NeRF or better known as Neural Radiance Fields is a state-of-the-art method that generates novel views of complex scenes by optimizing an underlying 
@@ -23,3 +25,7 @@ done:
 *(a) Sampling 5D coordinates (location and viewing direction) along camera rays; (b) feeding those locations into an MLP to produce a color and 
 volume density; c)using volume rendering techniques to composite these values into an image; (d) optimize the scene representation by minimizing 
 the residual between synthesized and ground truth observed images*
+
+The Optimization here is happening for a deep fully connected multi-layer perceptron without using any convolutional layers. Also, gradient descent is 
+used to optimize this model by minimizing the error between each observed image and the corresponding views rendered from the representation.
+
