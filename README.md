@@ -30,3 +30,4 @@ The Optimization here is happening for a deep fully connected multi-layer percep
 used to optimize this model by minimizing the error between each observed image and the corresponding views rendered from the representation.
 
 ## What is Sparseleap?
+
