@@ -1,6 +1,6 @@
 ## Project Description
 
-The goal of this project is to implement 'SparseLeap-an effective empty space skipping technique' during volume rendering phase of the NeRF(Neural Radiance Fields). 
+The goal of this project is to implement '[SparseLeap-an effective empty space skipping technique](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8017589)' during volume rendering phase of the NeRF(Neural Radiance Fields). In this project, we have used Lego data set is for training the NeRF. The NeRF is first trained using the Stratified and Heirarchical volume sampling. once the training is completed, Sparseleap is used to render the novel view from the trained NeRF. Stratified and Heirarchical volume sampling sampled a point uniformaly along the ray irrespective of the sampled point is in empty space or not. Sparseleap strategically skip the empty space and sampled a point only where objects lies. Hence, Sparseleap impove the computational efficiency of the volume rendering phase in NeRF.   
 
 ## What is NeRF (Neural Radiance Fields)?
 
@@ -29,3 +29,4 @@ the residual between synthesized and ground truth observed images*
 The Optimization here is happening for a deep fully connected multi-layer perceptron without using any convolutional layers. Also, gradient descent is 
 used to optimize this model by minimizing the error between each observed image and the corresponding views rendered from the representation.
 
+## What is Sparseleap?
