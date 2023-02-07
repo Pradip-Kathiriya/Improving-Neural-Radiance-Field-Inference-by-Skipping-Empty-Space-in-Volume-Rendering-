@@ -1,7 +1,5 @@
 ## Project Description
 
-
-
 ## What is NeRF (Neural Radiance Fields)?
 
 NeRF or better known as Neural Radiance Fields is a state-of-the-art method that generates novel views of complex scenes by optimizing an underlying 
