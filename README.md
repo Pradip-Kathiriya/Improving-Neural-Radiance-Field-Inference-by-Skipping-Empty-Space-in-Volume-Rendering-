@@ -59,4 +59,12 @@ Below figures show the graph for PSNR vs the number of sample per ray for two di
 
 For this scene using sparseleap we have skipped 31.96% of the empty space. It is also worth noting that the better the output of the NeRf, the better sparseleap is at skipping empty space as NeRF can provide accurate volume density information.
 
-## 
+## Requirement
+Python 2.0 or above
+
+## License
+
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Copyright (c) Feb 2023 Pradip Kathiriya
+
